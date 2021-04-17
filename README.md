@@ -1,8 +1,9 @@
-#Meta Layer Python App
+# Meta Layer Python App
+
 This README file contains information on the contents of the meta-esquenta-yocto layer.
 
-###I. Adding the meta-esquenta-yocto layer to your build
+### Adding the meta-python-yocto layer to your build
 =================================================
 
-Run 'bitbake-layers add-layer meta-esquenta-yocto'
+1. Run 'bitbake-layers add-layer meta-esquenta-yocto'
 
