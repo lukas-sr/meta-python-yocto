@@ -1,0 +1,15 @@
+[Unit]
+Description="Simple Python PyQt5 App"
+After=weston@root.service
+Requires=weston@root.service
+
+[Service]
+Restart=on-failure
+Type=forking
+Environment="DISPLAY:=0.0"
+ExecStart=/bin/python3 /opt/app-python/my-app.py
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
+
